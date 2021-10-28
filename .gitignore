@@ -1,5 +1,3 @@
-venv4*
 *.pt
 *.pyc
-*.whl
 *.zip
