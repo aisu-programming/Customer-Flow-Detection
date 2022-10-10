@@ -10,10 +10,10 @@ import torch
 import torch.backends.cudnn as cudnn
 from numpy import random
 
-from models.experimental import attempt_load
-from utils.datasets import LoadStreams
-from utils.general import check_img_size, non_max_suppression, scale_coords, xyxy2xywh, plot_one_box
-from utils.torch_utils import select_device, time_synchronized
+from Footfall_Detection.models.experimental import attempt_load
+from Footfall_Detection.utils.datasets import LoadStreams
+from Footfall_Detection.utils.general import check_img_size, non_max_suppression, scale_coords, xyxy2xywh, plot_one_box
+from Footfall_Detection.utils.torch_utils import select_device, time_synchronized
 
 
 def detect(save_img=False):

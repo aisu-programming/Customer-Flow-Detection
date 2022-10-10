@@ -4,8 +4,8 @@ import numpy as np
 import torch
 import torch.nn as nn
 
-from models.common import Conv, DWConv
-from utils.google_utils import attempt_download
+from Footfall_Detection.models.common import Conv, DWConv
+from Footfall_Detection.utils.google_utils import attempt_download
 
 class CrossConv(nn.Module):
     # Cross Convolution Downsample
